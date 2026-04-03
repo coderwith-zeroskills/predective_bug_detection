@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Trained model artefacts (large binary files)
+*.pkl
+*.npz
+*.npy
+
+# Dataset (regenerate with generate_data.py)
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Charts output
+model_results.png
